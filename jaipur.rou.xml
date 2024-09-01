@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-17 15:31:08.892293 by randomTrips.py v1_19_0+0000-baa66a0f364
+<configuration>
+    <net-file value="jaipur.net.xml"/>
+    <route-file value="jaipur.rou.xml"/>
+    <length value="True"/>
+    <end value="100.0"/>
+</configuration>
+-->
+
+<!-- generated on 2024-02-17 15:31:08 by Eclipse SUMO duarouter Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="jaipur.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="jaipur.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="100.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+--> 
+<routes>
+    <!-- Left to right -->
+    <vehicle id="1" depart="1">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="2" depart="1.2">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="3" depart="1.4">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="4" depart="1.6">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="5" depart="1.8">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="6" depart="2">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="7" depart="2.2">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="8" depart="2.4">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="9" depart="2.6">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="10" depart="2.8">
+        <route id="route1" edges="170204662#0 170204662#1 170204662#2 170204662#3 449397140 532234592#3 532234592#4 532234592#5 170204653#0 -28851030#3 -28851030#2 -28851030#1 -28851030#0 " probability="1.0">
+            <distribution id="0" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <!-- Right to left -->
+    <vehicle id="11" depart="3">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="12" depart="3.2">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="13" depart="3.4">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle><vehicle id="14" depart="3.6">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="15" depart="3.8">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="16" depart="4">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="17" depart="4.2">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="18" depart="4.4">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="19" depart="4.6">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="20" depart="4.8">
+        <route id="route2" edges="28851030#0 28851030#1 28851030#2 28851030#3 170204653#1 532234592#7 532234592#8 532234592#0 532234592#1 170204670 -170204662#3 -170204662#2 -170204662#1 -170204662#0" probability="1.0">
+            <distribution id="1" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <!-- Top to bottom -->
+    <vehicle id="21" depart="5">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="22" depart="5.2">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="23" depart="5.4">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="24" depart="5.6">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="25" depart="5.8">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="26" depart="6">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="27" depart="6.2">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="28" depart="6.4">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="29" depart="6.6">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="30" depart="6.8">
+        <route id="route3" edges="28851399#2 28851399#3 28851399#4 28851399#5 449397451 532234592#5 532234592#6 532234592#7 170204661#0 -532234604#3 -532234604#2 -532234604#1 -532234604#0" probability="1.0">
+            <distribution id="2" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <!-- Bottom to top -->
+    <vehicle id="31" depart="7">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="32" depart="7.2">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="33" depart="7.4">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="34" depart="7.6">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="35" depart="7.8">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="36" depart="8">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="37" depart="8.2">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="38" depart="8.4">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="39" depart="8.6">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <vehicle id="40" depart="8.8">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle>
+    <!-- <vehicle id="31" depart="7">
+        <route id="route4" edges="532234604#0 532234604#1 532234604#2 532234604#3 170204661#1 532234592#1 532234592#2 532234592#3 170204656 -28851399#5 -28851399#4 -28851399#3 -28851399#2" probability="1.0">
+            <distribution id="3" type="dijkstra"/>
+        </route>
+    </vehicle> -->
+</routes>

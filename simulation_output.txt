@@ -1,0 +1,13 @@
+Vehicle 0 total traveling time: 48.1s
+Vehicle 1 total traveling time: 50.9s
+Vehicle 3 total traveling time: 44.8s
+Vehicle 2 total traveling time: 53.5s
+Vehicle 4 total traveling time: 64.2s
+Vehicle 6 total traveling time: 55.4s
+Vehicle 5 total traveling time: 51.900000000000006s
+Vehicle 7 total traveling time: 72.7s
+Vehicle 9 total traveling time: 65.2s
+Vehicle 8 total traveling time: 69.7s
+Vehicle 10 total traveling time: 49.9s
+Vehicle 11 total traveling time: 46.2s
+Total execution time: 81.3 seconds

@@ -1,0 +1,17 @@
+<!-- sumocfg.sumocfg -->
+<configuration>
+    <input>
+        <net-file value="new.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+        <additional-files value="jaipur.poly.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <step-length value="0.1"/>
+    </time>
+    <routing>
+        <router-reroute-to-probabilities id="reroute" vClass="passenger" />
+        <device-class logic="passenger" name="passenger"/>
+    </routing>
+    
+</configuration>
